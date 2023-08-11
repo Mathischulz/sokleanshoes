@@ -327,13 +327,13 @@ ul li .fa-brands:hover {
 }
 
 .carousel {
-    width: 60%;
+    width: 70%;
     border: 0.2rem solid red;
 }
 
 @media (max-width:500px) {
     .carousel {
-        width: 70%;
+        width: 90%;
     }
 }
 
