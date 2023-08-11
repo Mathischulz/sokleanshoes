@@ -315,3 +315,24 @@ ul li .fa-brands:hover {
         margin: 0 10px;
     }
 }
+
+/*CSS GALERIA*/
+
+.carrousel-cont {
+    background-color: #000000;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.carousel {
+    width: 50%;
+    border: 0.2rem solid red;
+}
+
+
+
+
+
+
