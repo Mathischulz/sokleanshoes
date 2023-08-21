@@ -91,10 +91,12 @@ animation: rotate-center 0.6s ease-in-out both;
     padding: 20px;
     color: #ffffff;
     display: block;
+    transition: 0.3s;
 }
 
 .menu .navbar ul li a:hover {
     color: #ff0000;
+    transform: scale(150%);
 }
 
 #menu {
@@ -122,9 +124,8 @@ animation: rotate-center 0.6s ease-in-out both;
 }
 
 .header h1:hover {
-    cursor: pointer;
+    cursor:default;
     transition: 1s;
-    transform: scale(105%);
 }
 
 .header-info p {
@@ -248,9 +249,8 @@ ul li .fa-brands:hover {
         display: none;
     }
 
-    .menu .navbar ul li {
-        width: 100%;
-        text-align: center;
+    .menu .navbar ul li a {
+        width:100%;
     }
 
     #menu:checked ~ .navbar {
@@ -262,12 +262,12 @@ ul li .fa-brands:hover {
     }
 
     .header-info h1 {
-        font-size: 45px;
-        margin-bottom: 5px;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
     }
 
     .header-info p {
-        font-size: 17px;
+        font-size: 1rem;
     }
 
     .logo {
@@ -291,7 +291,7 @@ ul li .fa-brands:hover {
     }
 
     .soklean-1 p {
-        font-size: 12px;
+        font-size: 1rem;
         width: 100%;
     }
 
