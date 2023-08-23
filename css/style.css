@@ -23,7 +23,7 @@ body {
 
 .header {
     background-image: linear-gradient(rgba(5, 7 , 12, 0.75), rgba(5, 7, 12, 0.75)), 
-    url(images/zapaheader.png);
+    url(/images/zapaheader.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -229,7 +229,7 @@ ul li .fa-brands:hover {
 }
 
 
-@media(max-width:991px) {
+@media(max-width:1470px) {
 
     .menu {
         padding: 20px;
@@ -277,7 +277,6 @@ ul li .fa-brands:hover {
 /*SECTION 2 */
 
     .soklean {
-        flex-direction: column;
         align-items: center;
         text-align: center;
         margin: 0;
@@ -293,6 +292,7 @@ ul li .fa-brands:hover {
     .soklean-1 p {
         font-size: 1rem;
         width: 100%;
+        text-align: center;
     }
 
     .cont-galeria {
@@ -337,5 +337,13 @@ ul li .fa-brands:hover {
     }
 }
 
+@media(max-width:1100px) {
+    .soklean {
+        flex-direction: column;
+    }
 
+    .soklean-1 {
+        padding-inline: 1rem;
+    }
+}
 
