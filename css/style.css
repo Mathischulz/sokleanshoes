@@ -229,6 +229,23 @@ ul li .fa-brands:hover {
 }
 
 
+@media(max-width:960px) {
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        display: none;
+        background-color: #424242;
+    }
+
+    .navbar-txt {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 @media(max-width:1470px) {
 
     .menu {
@@ -236,17 +253,11 @@ ul li .fa-brands:hover {
         margin: 0;
     }
 
-    .menu label {
-        display: initial;
-    }
-
     .menu .navbar {
-        position: absolute;
         top: 100%;
         left: 0;
         right: 0;
-        background-color: rgb(65, 65, 65);
-        display: none;
+        
     }
 
     .menu .navbar ul li a {
@@ -343,7 +354,8 @@ ul li .fa-brands:hover {
     }
 
     .soklean-1 {
-        padding-inline: 1rem;
+        padding-inline: 2rem;
     }
+    
 }
 
