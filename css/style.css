@@ -88,7 +88,7 @@ animation: rotate-center 0.6s ease-in-out both;
 
 .menu .navbar ul li a {
     font-size: 18px;
-    padding: 20px;
+    margin: 1rem;
     color: #ffffff;
     display: block;
     transition: 0.3s;
