@@ -95,11 +95,6 @@ animation: rotate-center 0.6s ease-in-out both;
     transition: 0.3s;
 }
 
-.bi-telephone,
-.bi-check2 {
-    display: none;
-}
-
 .menu .navbar ul li a:hover {
     color: #ff0000;
     transform: scale(150%);
@@ -234,14 +229,12 @@ animation: rotate-center 0.6s ease-in-out both;
         position: absolute;
         display: none;
         background-color: #141414ef;
-        height: 750px;
+        height: auto;
+        justify-content: space-between
     }
-
-    
 
     .navbar-txt {
         display: flex;
-        flex-direction: column;
         justify-content: space-around;
         height: 100%;
     }
